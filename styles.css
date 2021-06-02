@@ -1,0 +1,43 @@
+body{
+  background-color: #deeeea;
+}
+.container
+{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+h1
+{
+  color: #39a6a3;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 5px 0px 5px #000000;
+  font-size: 7rem;
+  margin: 30px
+}
+p{
+  color: #bf1363;
+  font-size: 2rem;
+  font-family: 'Cabin', sans-serif;
+}
+img{
+  width: 80%;
+}
+.dice{
+  display: inline-block;
+  text-align: center;
+}
+footer{
+  margin-top: 5%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1rem;
+  text-align: center;
+  color: #231e23;
+}
+
+.instructions{
+  color: #bf1323;
+
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+}
