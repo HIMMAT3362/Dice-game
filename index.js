@@ -9,7 +9,7 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 // this section is for the "who wins among the players"
 if (randomnumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
+  document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
 }
 else if (randomnumber1 < randomNumber2) {
   document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
